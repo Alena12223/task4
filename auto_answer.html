@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+        {% block content %}
+            <h2>{{ diction['title'] }}</h2>
+            <p><strong>Фамилия:</strong> {{ diction['surname'] }}</p>
+            <p><strong>Имя:</strong> {{ diction['name'] }}</p>
+            <p><strong>Образование:</strong> {{ diction['education'] }}</p>
+            <p><strong>Профессия:</strong> {{ diction['profession'] }}</p>
+            <p><strong>Пол:</strong> {{ diction['sex'] }}</p>
+            <p><strong>Мотивация:</strong> {{ diction['motivation'] }}</p>
+            <p><strong>Готовы остаться на Марсе?</strong> {{ diction['ready'] }}</p>
+        {% endblock %}
